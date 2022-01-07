@@ -236,7 +236,7 @@ body #scene #left-zone .list li.item input[type="radio"] ~ .content h1:first-let
 }
 
 body #scene #left-zone .list li.item input[type="radio"] ~ .content p {
-  max-width: 50%;
+  max-width: 60%;
   text-align: left;
 }
 
@@ -250,7 +250,7 @@ body #scene #left-zone .list li.item input[type="radio"] ~ .content br {
 body #scene #left-zone .list li.item input[type="radio"] ~ .content img {
     border-radius: 120px 20px 120px 20px;
     height: 350px;
-    width: 350px;
+    width: 380px;
 }
 
 body #scene #left-zone .list li.item input[type="radio"]:checked ~ label {

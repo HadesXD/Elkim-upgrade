@@ -22,7 +22,7 @@
                                     <label class="label_selectColor" for="radio_kzCup50">Kozmetični lončnki 50ml</label> <!--For is important-->
                                     <div class="content content_kzCup50"><span class="picto"></span>
                                         <br />
-                                        <img src="images\kzCup50.jpg" alt=""><br />
+                                        <img src="images\kzCup50.jpg" alt="Kozmetični lončnki 50ml"><br />
                                         <p><b>Uporaba:</b> za pakiranje krem in mazil<br/>
                                            <b>Material:</b> PS ali SAN;<br/>
                                            <b>Dimenzije:</b> višina 52mm, premer 60mm, prostornina 50ml;<br />
@@ -35,7 +35,7 @@
                                     <label class="label_selectColor" for="radio_kzCup50_v2">Kozmetični lončnki 50ml (verzija 2)</label> <!--For is important-->
                                     <div class="content content_kzCup50_v2"><span class="picto"></span>
                                         <br />
-                                        <img src="images\kzCup50v2.jpg" alt=""><br />
+                                        <img src="images\kzCup50v2.jpg" alt="Kozmetični lončnki 50ml"><br />
                                         <p><b>Material:</b> lonček PS, vložek PP; Dimenzije: višina 58mm, premer 65mm, prostornina 50ml;<br />
                                            <b>Barva:</b> po želji; tisk: možnost tiska na pokrov ali obod lončka;<br />
                                            <b>Tesnilo:</b> penjeni PP</p>
@@ -45,16 +45,27 @@
                                     <input type="radio" id="radio_kozCup30in100" name="basic_carousel">
                                     <label class="label_selectColor" for="radio_kozCup30in100">Kozmetični lončki 30 in 100ml</label>
                                     <div class="content content_kozCup30in100"><span class="picto"></span>
-                                        <h1>Kozmetični lončnki 30 in 100ml</h1>
-                                        <p>Kozmetični lončki prostornine 30 ml (zgornji) Material: PS ali SAN; dimenzija: višina 50 mm, premer 42 mm, prostornina 30 ml; barva: po želji; tisk: možnost tiska na pokrov ali obod lončka; tesnilo: penjeni PP;</p>
-                                        <p>Kozmetični lončki prostornine 100 ml (spodnji) Material: PS ali SAN; dimenzija: višina 58 mm, premer 64 mm, prostornina 100 ml; barva: po želji; tisk: možnost tiska na pokrov ali obod lončka; tesnilo: penjeni PP</p>
+                                        <br />
+                                        <img src="images\kzCup30in100.jpg" alt="Kozmetični lončki prostornine 30ml in 100ml"><br />
+                                        <p><b>Kozmetični lončki prostornine 30ml (zgornji)</b> <br />
+                                           <b>Material:</b> PS ali SAN; <b>Dimenzija:</b> višina 50 mm, premer 42 mm, prostornina 30 ml; <br />
+                                           <b>Barva:</b> po želji; <b>Tisk:</b> možnost tiska na pokrov ali obod lončka;
+                                           <b>Tesnilo:</b> penjeni PP;<br />
+                                           <b>Kozmetični lončki prostornine 100ml (spodnji)</b> 
+                                           <b>Material:</b> PS ali SAN; 
+                                           <b>Dimenzija:</b> višina 58 mm, premer 64 mm, prostornina 100 ml; 
+                                           <b>Barva:</b> po želji; 
+                                           <b>Tisk:</b> možnost tiska na pokrov ali obod lončka; 
+                                           <b>Tesnilo:</b> penjeni PP
+                                        </p>
                                     </div>
                                 </li>
                                 <li class="item">
                                     <input type="radio" id="radio_kozCup150" name="basic_carousel">
                                     <label class="label_selectColor" for="radio_kozCup150">Kozmetični lončki 150ml</label>
                                     <div class="content content_kozCup150"><span class="picto"></span>
-                                        <h1>Kozmetični lončki 150ml</h1>
+                                        <br />
+                                        <img src="images\kzCup30in100.jpg" alt="Kozmetični lončki prostornine 30ml in 100ml"><br />
                                         <p>Uporaba: za pakiranje krem in mazil
                                         Material: lonček PS, vložek PP; Dimenzije: višina 64 mm, premer 78 mm, prostornina 150 ml; 
                                         barva: po želji; tisk: možnost tiska na pokrov ali obod lončka; tesnilo: penjeni PP</p>
