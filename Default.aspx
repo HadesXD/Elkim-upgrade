@@ -13,7 +13,6 @@
     <div id="content-wrapper">
         <div id="content">
             <div class="5grid">
-                <div class="12u-first">
                     <!-- Carousel -->
                     <div onmouseenter="bigImg(this)" id="scene">
                         <div id="left-zone">
@@ -22,24 +21,24 @@
                                     <input type="radio" id="radio_kzCup50" name="basic_carousel" checked="checked">
                                     <label class="label_selectColor" for="radio_kzCup50">Kozmetični lončnki 50ml</label> <!--For is important-->
                                     <div class="content content_kzCup50"><span class="picto"></span>
-                                        <h1>Kozmetični lončnki 50ml</h1>
-                                        <img src="images\kzCup50.jpg" alt="">
+                                        <br />
+                                        <img src="images\kzCup50.jpg" alt=""><br />
                                         <p><b>Uporaba:</b> za pakiranje krem in mazil<br/>
-                                            Material: PS ali SAN;<br/>
-                                            Dimenzije: višina 52 mm, premer 60 mm, prostornina 50 ml;<br/>
-                                            Barva: po želji, možnost barvne kombinacije;<br>
-                                            Tisk: možnost tiska na pokrov ter na spodnji del in rob; tesnilo: brizgani PP</p>
+                                           <b>Material:</b> PS ali SAN;<br/>
+                                           <b>Dimenzije:</b> višina 52mm, premer 60mm, prostornina 50ml;<br />
+                                           <b>Barva:</b> po želji, možnost barvne kombinacije;<br />
+                                           <b>Tisk:</b> možnost tiska na pokrov ter na spodnji del in rob; tesnilo: brizgani PP</p>
                                     </div>
                                 </li>
                                 <li class="item">
                                     <input type="radio" id="radio_kzCup50_v2" name="basic_carousel">
                                     <label class="label_selectColor" for="radio_kzCup50_v2">Kozmetični lončnki 50ml (verzija 2)</label> <!--For is important-->
                                     <div class="content content_kzCup50_v2"><span class="picto"></span>
-                                        <h1>Kozmetični lončnki 50ml</h1>
-                                        <img src="kzCup50.jpg" alt="">
-                                        <p>Material: lonček PS, vložek PP; Dimenzije: višina 58 mm, premer 65 mm, 
-                                        prostornina 50 ml; barva: po želji; tisk: možnost tiska na pokrov ali 
-                                        obod lončka; tesnilo: penjeni PP</p>
+                                        <br />
+                                        <img src="images\kzCup50v2.jpg" alt=""><br />
+                                        <p><b>Material:</b> lonček PS, vložek PP; Dimenzije: višina 58mm, premer 65mm, prostornina 50ml;<br />
+                                           <b>Barva:</b> po želji; tisk: možnost tiska na pokrov ali obod lončka;<br />
+                                           <b>Tesnilo:</b> penjeni PP</p>
                                     </div>
                                 </li>
                                 <li class="item">
@@ -153,7 +152,7 @@
                         </div>
                     </div>
 
-                </div>
+               
             </div>
 
 

@@ -242,13 +242,15 @@ body #scene #left-zone .list li.item input[type="radio"] ~ .content p {
 
 body #scene #left-zone .list li.item input[type="radio"] ~ .content br {
   display: block;
-  margin: 10px 0;
-  line-height: 22px;
+  margin: 3px 0;
+  line-height: 10px;
   content: " ";
 }
 
 body #scene #left-zone .list li.item input[type="radio"] ~ .content img {
-  border-radius: 30px;
+    border-radius: 120px 20px 120px 20px;
+    height: 350px;
+    width: 350px;
 }
 
 body #scene #left-zone .list li.item input[type="radio"]:checked ~ label {

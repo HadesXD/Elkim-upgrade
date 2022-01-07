@@ -35,9 +35,6 @@
         }
     </script>
     <script type="text/javascript">
-
-
-
         $(document).ready(function () {
 
             $.cookieCuttr({
@@ -102,76 +99,66 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<body>
-    <form id="form1" runat="server">
+
+    <body>
+        <form id="form1" runat="server">
     
-    <!-- Header -->
-    <div id="header-wrapper">
-        
+        <!-- Header -->
+        <div id="header-wrapper">
             <uc1:ucIzbiraJezika ID="ucIzbiraJezika1" runat="server" />
                 
-           <header id="header" class="5grid">
-            <div class="12u-first"> 
+            <header id="header" class="5grid">
                 <!-- Logo -->
-                <h1> ELKIM<br /> </h1>
+                <h1>ELKIM</h1><br />
                 <!-- če dam Logo v h1 mu napačno fixira višino-->
                 <subhead><asp:Literal ID="Literal2" runat="server" Text="<%$Resources:ResourceUI, Header_Title %>" /></subhead>
-                <!-- Nav -->
-                <nav>
-                    <font color="white" size="9"></font>
-                   
-                </nav>
-            </div>
-            
-        </header>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        </asp:ContentPlaceHolder>
-        
-    </div>
-    </form>
-    <!-- Footer -->
-    <div id="footer-wrapper">
-        <footer id="footer" class="5grid">
-            <div class="8u-first">
-                <!-- Links -->
-                <section>
-                    <%--                    <h2>
-                        <a href="http://www.facebook.com/colorhit">Pridružite se nam na Facebooku </a>
-                    </h2>
-                    <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fcolorhit&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=true&amp;font&amp;colorscheme=dark&amp;action=like&amp;height=80"
-                        scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 450px;
-                        height: 40px;" allowtransparency="true"></iframe>
-                    <a href="help.aspx">
-                        <h4>
-                            Pogosto zastavljena vprašanja</h4>
-                    </a><a href="video.aspx">
-                        <h4>
-                            Video posnetki</h4>
-                    </a>--%>
-                </section>
-            </div>
-            <div class="4u">
-                <!-- Blurb -->
-                <section>
-                    <h2></h2>
-                    <p>
-                        Elkim d.o.o.<br />
-                        Dvor 20c, 3240 Šmarje pri Jelšah<br />
-                        GSM: +386 (0)31 573 383, ePošta: info@elkim.si
-                    </p>
-                </section>
-            </div>
-        </footer>
-    </div>
-    <!-- Copyright -->
-    <div id="copyright">
-        <asp:Literal ID="Literal1" runat="server" Text="<%$Resources:ResourceUI, Elkim_Copyright %>" />
-    </div>
-    <!-- put the the overlay below before closing </body> the end of the page -->
-    <div class="apple_overlay" id="overlay">
-        <!-- the external content is loaded inside this tag -->
-        <div class="contentWrap">
+            </header>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
         </div>
-    </div>
-</body>
+        </form>
+        <!-- Footer -->
+        <div id="footer-wrapper">
+            <footer id="footer" class="5grid">
+                <div class="8u-first">
+                    <!-- Links -->
+                    <section>
+                        <%--                    <h2>
+                            <a href="http://www.facebook.com/colorhit">Pridružite se nam na Facebooku </a>
+                        </h2>
+                        <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fcolorhit&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=true&amp;font&amp;colorscheme=dark&amp;action=like&amp;height=80"
+                            scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 450px;
+                            height: 40px;" allowtransparency="true"></iframe>
+                        <a href="help.aspx">
+                            <h4>
+                                Pogosto zastavljena vprašanja</h4>
+                        </a><a href="video.aspx">
+                            <h4>
+                                Video posnetki</h4>
+                        </a>--%>
+                    </section>
+                </div>
+                <div class="4u">
+                    <!-- Blurb -->
+                    <section>
+                        <h2></h2>
+                        <p>
+                            Elkim d.o.o.<br />
+                            Dvor 20c, 3240 Šmarje pri Jelšah<br />
+                            GSM: +386 (0)31 573 383, ePošta: info@elkim.si
+                        </p>
+                    </section>
+                </div>
+            </footer>
+        </div>
+        <!-- Copyright -->
+        <div id="copyright">
+            <asp:Literal ID="Literal1" runat="server" Text="<%$Resources:ResourceUI, Elkim_Copyright %>" />
+        </div>
+        <!-- put the the overlay below before closing </body> the end of the page -->
+        <div class="apple_overlay" id="overlay">
+            <!-- the external content is loaded inside this tag -->
+            <div class="contentWrap">
+            </div>
+        </div>
+    </body>
 </html>
