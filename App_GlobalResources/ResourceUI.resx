@@ -183,17 +183,45 @@
   <data name="SendMessage_Title" xml:space="preserve">
     <value>Pošlji povpraševanje</value>
   </data>
-  <data name="Slider_KL50ml_Text" xml:space="preserve">
-    <value>Uporaba: za pakiranje krem in mazil Material: PS ali SAN;
-Dimenzije: višina 52 mm, premer 60 mm, prostornina 50 ml; barva: po želji, možnost barvne kombinacije; tisk: možnost tiska na pokrov ter na spodnji del in rob; tesnilo: brizgani PP</value>
-  </data>
   <data name="Slider_KL50ml_Title" xml:space="preserve">
     <value>Kozmetični lončki 50 ml</value>
+  </data>
+  <data name="KzCup50_Text" xml:space="preserve">
+    <value>&lt;b&gt;Uporaba:&lt;/b&gt; za pakiranje krem in mazil;&lt;br/&gt;
+&lt;b&gt;Material:&lt;/b&gt; PS ali SAN;&lt;br/&gt;
+&lt;b&gt;Dimenzije:&lt;/b&gt; višina 52mm, premer 60mm, prostornina 50ml;&lt;br /&gt;
+&lt;b&gt;Barva:&lt;/b&gt; po želji, možnost barvne kombinacije;&lt;br /&gt;
+&lt;b&gt;Tisk:&lt;/b&gt; možnost tiska na pokrov ter na spodnji del in rob; tesnilo: brizgani PP</value>
   </data>
   <data name="MetaDescription_content" xml:space="preserve">
     <value>proizvodnja kozmetične in lekarniške embalaže</value>
   </data>
   <data name="MetaKeywords_content" xml:space="preserve">
     <value>proizvodnja kozmetične in lekarniške embalaže, lončki, plastični lončki, plastična embalaža, kozmetični lončki, kozmetična embalaža, brizganje plastike, plastične mase, pokrovčki, lončki po meri</value>
+  </data>
+  <data name="KzCup150_Text" xml:space="preserve">
+    <value>&lt;b&gt;Uporaba:&lt;/b&gt; za pakiranje krem in mazil; &lt;br /&gt;
+&lt;b&gt;Material:&lt;/b&gt; lonček PS, vložek PP; &lt;br /&gt;
+&lt;b&gt;Barva:&lt;/b&gt; po želji; &lt;br /&gt;
+&lt;b&gt;Dimenzije:&lt;/b&gt; višina 64 mm, premer 78 mm, prostornina 150 ml; &lt;br /&gt;
+&lt;b&gt;Tisk:&lt;/b&gt; možnost tiska na pokrov ali obod lončka; &lt;br /&gt;
+&lt;b&gt;Tesnilo:&lt;/b&gt; penjeni PP</value>
+  </data>
+  <data name="KzCup30-100_Text" xml:space="preserve">
+    <value>&lt;b&gt;Kozmetični lončki prostornine 30ml (zgornji)&lt;/b&gt; &lt;br /&gt;
+&lt;b&gt;Material:&lt;/b&gt; PS ali SAN; &lt;b&gt;Dimenzija:&lt;/b&gt; višina 50 mm, premer 42 mm, prostornina 30 ml; &lt;br /&gt;
+&lt;b&gt;Barva:&lt;/b&gt; po želji; &lt;b&gt;Tisk:&lt;/b&gt; možnost tiska na pokrov ali obod lončka;
+&lt;b&gt;Tesnilo:&lt;/b&gt; penjeni PP;&lt;br /&gt;
+&lt;b&gt;Kozmetični lončki prostornine 100ml (spodnji)&lt;/b&gt; 
+&lt;b&gt;Material:&lt;/b&gt; PS ali SAN; 
+&lt;b&gt;Dimenzija:&lt;/b&gt; višina 58 mm, premer 64 mm, prostornina 100 ml; 
+&lt;b&gt;Barva:&lt;/b&gt; po želji; 
+&lt;b&gt;Tisk:&lt;/b&gt; možnost tiska na pokrov ali obod lončka; 
+&lt;b&gt;Tesnilo:&lt;/b&gt; penjeni PP</value>
+  </data>
+  <data name="KzCup50v2_Text" xml:space="preserve">
+    <value>&lt;b&gt;Material:&lt;/b&gt; lonček PS, vložek PP; Dimenzije: višina 58mm, premer 65mm, prostornina 50ml;&lt;br /&gt;
+&lt;b&gt;Barva:&lt;/b&gt; po želji; tisk: možnost tiska na pokrov ali obod lončka;&lt;br /&gt;
+&lt;b&gt;Tesnilo:&lt;/b&gt; penjeni PP</value>
   </data>
 </root>

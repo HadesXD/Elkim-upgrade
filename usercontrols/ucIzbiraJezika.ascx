@@ -1,21 +1,15 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ucIzbiraJezika.ascx.cs"
     Inherits="ElkimSite.usercontrols.ucIzbiraJezika" %>
-<table frame="void" width="100%" style="font-size: 12px; background-color: white;
-    filter: alpha(opacity=60); -moz-opacity: 0.6; opacity: 0.6;">
-    <tr>
-        <td width="100px">
-            &nbsp;
-        </td>
-        <td width="100px">
-            <asp:LinkButton ID="lbEnglish" Text="English" OnClick="ibEnglish_Click" runat="server"
-                CausesValidation="false" />
-            &nbsp;
-        </td>
-        <td width="100px">
+
+        <div class="linkButton">
+
+            <%--<asp:LinkButton ID="lbEnglish" OnClick="ibEnglish_Click" runat="server" CausesValidation="false" /><span>English</span></asp:LinkButton>--%>
+    
             <asp:LinkButton ID="lbSlovenian" Text="Slovenščina" OnClick="ibSlovenian_Click" runat="server"
                 CausesValidation="false" />
-            &nbsp;
-        </td>
+
+    </div>
+      
        <%-- <td width="100px">
             <asp:LinkButton ID="lbGerman" Text="Deutsch" runat="server" CausesValidation="false"
                 OnClick="lbGerman_Click" />

@@ -23,11 +23,7 @@
                                     <div class="content content_kzCup50"><span class="picto"></span>
                                         <br />
                                         <img src="images\kzCup50.jpg" alt="Kozmetični lončnki 50ml"><br />
-                                        <p><b>Uporaba:</b> za pakiranje krem in mazil<br/>
-                                           <b>Material:</b> PS ali SAN;<br/>
-                                           <b>Dimenzije:</b> višina 52mm, premer 60mm, prostornina 50ml;<br />
-                                           <b>Barva:</b> po želji, možnost barvne kombinacije;<br />
-                                           <b>Tisk:</b> možnost tiska na pokrov ter na spodnji del in rob; tesnilo: brizgani PP</p>
+                                        <p><asp:Literal runat="server" Text="<%$Resources:ResourceUI, KzCup50_Text %>" /></p>
                                     </div>
                                 </li>
                                 <li class="item">
@@ -36,9 +32,7 @@
                                     <div class="content content_kzCup50_v2"><span class="picto"></span>
                                         <br />
                                         <img src="images\kzCup50v2.jpg" alt="Kozmetični lončnki 50ml"><br />
-                                        <p><b>Material:</b> lonček PS, vložek PP; Dimenzije: višina 58mm, premer 65mm, prostornina 50ml;<br />
-                                           <b>Barva:</b> po želji; tisk: možnost tiska na pokrov ali obod lončka;<br />
-                                           <b>Tesnilo:</b> penjeni PP</p>
+                                        <p><asp:Literal runat="server" Text="<%$Resources:ResourceUI, KzCup50v2_Text %>" /></p>
                                     </div>
                                 </li>
                                 <li class="item">
@@ -47,17 +41,7 @@
                                     <div class="content content_kozCup30in100"><span class="picto"></span>
                                         <br />
                                         <img src="images\kzCup30in100.jpg" alt="Kozmetični lončki prostornine 30ml in 100ml"><br />
-                                        <p><b>Kozmetični lončki prostornine 30ml (zgornji)</b> <br />
-                                           <b>Material:</b> PS ali SAN; <b>Dimenzija:</b> višina 50 mm, premer 42 mm, prostornina 30 ml; <br />
-                                           <b>Barva:</b> po želji; <b>Tisk:</b> možnost tiska na pokrov ali obod lončka;
-                                           <b>Tesnilo:</b> penjeni PP;<br />
-                                           <b>Kozmetični lončki prostornine 100ml (spodnji)</b> 
-                                           <b>Material:</b> PS ali SAN; 
-                                           <b>Dimenzija:</b> višina 58 mm, premer 64 mm, prostornina 100 ml; 
-                                           <b>Barva:</b> po želji; 
-                                           <b>Tisk:</b> možnost tiska na pokrov ali obod lončka; 
-                                           <b>Tesnilo:</b> penjeni PP
-                                        </p>
+                                        <p><asp:Literal runat="server" Text="<%$Resources:ResourceUI, KzCup30-100_Text %>" /></p>
                                     </div>
                                 </li>
                                 <li class="item">
@@ -66,9 +50,7 @@
                                     <div class="content content_kozCup150"><span class="picto"></span>
                                         <br />
                                         <img src="images\kzCup30in100.jpg" alt="Kozmetični lončki prostornine 30ml in 100ml"><br />
-                                        <p>Uporaba: za pakiranje krem in mazil
-                                        Material: lonček PS, vložek PP; Dimenzije: višina 64 mm, premer 78 mm, prostornina 150 ml; 
-                                        barva: po želji; tisk: možnost tiska na pokrov ali obod lončka; tesnilo: penjeni PP</p>
+                                        <p><asp:Literal runat="server" Text="<%$Resources:ResourceUI, KzCup150_Text %>" /></p>
                                     </div>
                                 </li>
                                 <li class="item">
@@ -207,7 +189,7 @@
                         <header>
                             <h2>
                                 <asp:Literal ID="Literal8" runat="server" Text="<%$Resources:ResourceUI, SendMessage_Title %>" /></h2>
-                            <uc1:sporocilo ID="sporocilo1" runat="server" />
+                                <uc1:sporocilo ID="sporocilo1" runat="server" />
                         </header>
                     </section>
                 </div>

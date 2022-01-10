@@ -184,8 +184,11 @@
     <value>Send inquiry</value>
   </data>
   <data name="Slider_KL50ml_Text" xml:space="preserve">
-    <value>Application: for packing creams and ointments Material: PS or SAN;
-Dimensions: height 52 mm, diameter 60 mm, volume 50 ml; color: optional, possibility of color combinations; printing: possibility of printing on the cover and on the lower part and the edge; seal: injection molded PP</value>
+    <value>&lt;b&gt;Usage:&lt;/b&gt; for packing creams and ointments; &lt;br/&gt;
+&lt;b&gt;Material:&lt;/b&gt; PS or SAN; &lt;br/&gt;
+&lt;b&gt;Dimensions:&lt;/b&gt; height 52mm, diameter 60mm, volume 50ml; &lt;br /&gt;
+&lt;b&gt;Color:&lt;/b&gt; Optional, color combination option; &lt;br /&gt;
+&lt;b&gt;Printing:&lt;/b&gt; the ability to print on the lid and on the bottom and edge; seal: injection molded PP</value>
   </data>
   <data name="Slider_KL50ml_Title" xml:space="preserve">
     <value>Cosmetics cups 50 ml</value>
