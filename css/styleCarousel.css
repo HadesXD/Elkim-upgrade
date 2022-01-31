@@ -42,6 +42,7 @@
   }
 }
 
+
 body {
   background: #eee;
   font-family: "Tahoma";
@@ -51,35 +52,39 @@ body {
   user-select: none;
 }
 
+
 body #scene {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
-  width: 1000px;
-  height: 630px;
-  position: relative;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  background-color: #fff;
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: left;
+    -ms-flex-pack: left;
+    justify-content: left;
+    min-height: 650px;
+    min-width: 950px;
+    height: 100%;
+    width: 950px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    overflow: hidden;
 }
 
-body #scene #left-zone {
+
+body  #scene #left-zone {
   background: #fff;
   height: 75%;
-  -webkit-box-flex: 0;
+      -webkit-box-flex: 0;
       -ms-flex-positive: 0;
-          flex-grow: 0;
+  flex-grow: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -92,7 +97,7 @@ body #scene #left-zone {
           justify-content: left;
 }
 
-body #scene #left-zone .list {
+body  #scene #left-zone .list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -110,28 +115,28 @@ body #scene #left-zone .list {
   padding: 0;
 }
 
-body #scene #left-zone .list li.item input[type="radio"] {
+body  #scene #left-zone .list li.item input[type="radio"] {
   display: none;
 }
 
-body #scene #left-zone .list li.item input[type="radio"] ~ label {
+body  #scene #left-zone .list li.item input[type="radio"] ~ label {
   display: block;
   opacity: 0.5;
-  height: 40px;
+  font-size: 20px;
   text-align: center;
   line-height: 50px;
 }
 
-body #scene #left-zone .list li.item input[type="radio"] ~ label:first-letter {
+body  #scene #left-zone .list li.item input[type="radio"] ~ label:first-letter {
   text-transform: uppercase;
 }
 
-body #scene #left-zone .list li.item input[type="radio"] ~ label:hover {
+body  #scene #left-zone .list li.item input[type="radio"] ~ label:hover {
   opacity: 0.75;
   cursor: pointer;
 }
 
-body #scene #left-zone .list li.item input[type="radio"] ~ label.label_selectColor:before {
+body  #scene #left-zone .list li.item input[type="radio"] ~ label.label_selectColor:before {
   content: " ";
   display: block;
   position: absolute;
@@ -143,37 +148,12 @@ body #scene #left-zone .list li.item input[type="radio"] ~ label.label_selectCol
   background-repeat: no-repeat;
 }
 
-body #scene #left-zone .list li.item input[type="radio"] ~ label.label_banana:before {
-  content: " ";
-  display: block;
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  margin-left: 15px;
-  background-position: center;
-  background-size: 75% 75%;
-  background-repeat: no-repeat;
-}
-
-body #scene #left-zone .list li.item input[type="radio"] ~ label.label_apple:before {
-  content: " ";
-  display: block;
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  margin-left: 15px;
-  background-position: center;
-  background-size: 75% 75%;
-  background-repeat: no-repeat;
-}
-
-body #scene #left-zone .list li.item input[type="radio"] ~ .content {
-  overflow: auto;
+body  #scene #left-zone .list li.item input[type="radio"] ~ .content {
   position: absolute;
   left: 350px;
-  top: -630px;
+  top: -650px;
   width: 650px;
-  height: 630px;
+  height: 680px;
   -webkit-animation-duration: 0.75s;
           animation-duration: 0.75s;
   -webkit-animation-name: slideout;
@@ -195,7 +175,7 @@ body #scene #left-zone .list li.item input[type="radio"] ~ .content {
           flex-direction: column;
 }
 
-body #scene #left-zone .list li.item input[type="radio"] ~ .content.content_selectColor .picto {
+body  #scene #left-zone .list li.item input[type="radio"] ~ .content.content_selectColor .picto {
   height: 100px;
   width: 100px;
   background-position: center;
@@ -203,78 +183,44 @@ body #scene #left-zone .list li.item input[type="radio"] ~ .content.content_sele
   background-repeat: no-repeat;
 }
 
-body #scene #left-zone .list li.item input[type="radio"] ~ .content.content_selectColor h1 {
-  color: #D64541;
+body  #scene #left-zone .list li.item input[type="radio"] ~ .content.content_selectColor h1 {
+  color: #0b71cd;
 }
 
-body #scene #left-zone .list li.item input[type="radio"] ~ .content.content_banana .picto {
-  height: 100px;
-  width: 100px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-body #scene #left-zone .list li.item input[type="radio"] ~ .content.content_banana h1 {
-  color: #F5D76E;
-}
-
-body #scene #left-zone .list li.item input[type="radio"] ~ .content.content_apple .picto {
-  height: 100px;
-  width: 100px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-body #scene #left-zone .list li.item input[type="radio"] ~ .content.content_apple h1 {
-  color: #00B16A;
-}
-
-body #scene #left-zone .list li.item input[type="radio"] ~ .content h1:first-letter {
+body  #scene #left-zone .list li.item input[type="radio"] ~ .content h1:first-letter {
   text-transform: uppercase;
 }
 
-body #scene #left-zone .list li.item input[type="radio"] ~ .content p {
+body  #scene #left-zone .list li.item input[type="radio"] ~ .content p {
   max-width: 60%;
   text-align: left;
 }
 
-body #scene #left-zone .list li.item input[type="radio"] ~ .content br {
+body  #scene #left-zone .list li.item input[type="radio"] ~ .content br {
   display: block;
   margin: 3px 0;
   line-height: 10px;
   content: " ";
 }
 
-body #scene #left-zone .list li.item input[type="radio"] ~ .content img {
+body  #scene #left-zone .list li.item input[type="radio"] ~ .content img {
     border-radius: 120px 20px 120px 20px;
     height: 350px;
     width: 380px;
 }
 
-body #scene #left-zone .list li.item input[type="radio"]:checked ~ label {
+body  #scene #left-zone .list li.item input[type="radio"]:checked ~ label {
   opacity: 1;
   -webkit-animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
           animation: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
-body #scene #left-zone .list li.item input[type="radio"]:checked ~ label.label_selectColor {
-  color: #D64541;
-  border-right: solid 4px #D64541;
+body  #scene #left-zone .list li.item input[type="radio"]:checked ~ label.label_selectColor {
+    color: #0b71cd;
+    border-right: solid 4px #0b5394;
 }
 
-body #scene #left-zone .list li.item input[type="radio"]:checked ~ label.label_banana {
-  color: #F5D76E;
-  border-right: solid 4px #F5D76E;
-}
-
-body #scene #left-zone .list li.item input[type="radio"]:checked ~ label.label_apple {
-  color: #00B16A;
-  border-right: solid 4px #00B16A;
-}
-
-body #scene #left-zone .list li.item input[type="radio"]:checked ~ .content {
+body  #scene #left-zone .list li.item input[type="radio"]:checked ~ .content {
   -webkit-animation-duration: 0.75s;
           animation-duration: 0.75s;
   -webkit-animation-name: slidein;
@@ -285,7 +231,7 @@ body #scene #left-zone .list li.item input[type="radio"]:checked ~ .content {
           animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
-body #scene #middle-border {
+body  #scene #middle-border {
   background-color: #eee;
   height: 75%;
   -webkit-box-flex: 1;
@@ -295,11 +241,23 @@ body #scene #middle-border {
   z-index: 0;
 }
 
-body #scene #right-zone {
+body  #scene #right-zone {
   background: #fff;
   height: 100%;
   -webkit-box-flex: 3;
       -ms-flex-positive: 3;
           flex-grow: 3;
 }
-/*# sourceMappingURL=style.css.map */
+
+@media only screen and (max-width: 480px) {
+
+    body #scene #left-zone .list li.item input[type="radio"] ~ .content {
+        bottom: -800px;
+        left: -100px;
+    }
+
+    body #scene #left-zone .list {
+        margin-top: 650px;
+        margin-bottom: 50px;
+    }
+}

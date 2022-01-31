@@ -183,20 +183,65 @@
   <data name="SendMessage_Title" xml:space="preserve">
     <value>Send inquiry</value>
   </data>
-  <data name="Slider_KL50ml_Text" xml:space="preserve">
+  <data name="Item01_KzCup50_Text" xml:space="preserve">
     <value>&lt;b&gt;Usage:&lt;/b&gt; for packing creams and ointments; &lt;br/&gt;
 &lt;b&gt;Material:&lt;/b&gt; PS or SAN; &lt;br/&gt;
 &lt;b&gt;Dimensions:&lt;/b&gt; height 52mm, diameter 60mm, volume 50ml; &lt;br /&gt;
 &lt;b&gt;Color:&lt;/b&gt; Optional, color combination option; &lt;br /&gt;
 &lt;b&gt;Printing:&lt;/b&gt; the ability to print on the lid and on the bottom and edge; seal: injection molded PP</value>
   </data>
-  <data name="Slider_KL50ml_Title" xml:space="preserve">
-    <value>Cosmetics cups 50 ml</value>
+  <data name="item02_KzCupv2_Text" xml:space="preserve">
+    <value>&lt;b&gt;Material:&lt;/b&gt; PS pot, PP insert; Dimensions: height 58mm, diameter 65mm, volume 50ml; &lt;br /&gt;
+&lt;b&gt;Color:&lt;/b&gt; optional; printing: the possibility of printing on the lid or the rim of the pot; &lt;br /&gt;
+&lt;b&gt;Gasket:&lt;/b&gt; foam PP</value>
   </data>
   <data name="MetaDescription_content" xml:space="preserve">
     <value>production of cosmetic and pharmaceutical packaging</value>
   </data>
   <data name="MetaKeywords_content" xml:space="preserve">
     <value>production of cosmetic and pharmaceutical packaging</value>
+  </data>
+  <data name="item03_KzCup30-100_Text" xml:space="preserve">
+    <value>&lt;b&gt;Cosmetic pots with a capacity of 30ml (top) &lt;/b&gt; &lt;br /&gt;
+&lt;b&gt;Material:&lt;/b&gt; PS or SAN; &lt;b&gt; Dimension: &lt;/b&gt; height 50 mm, diameter 42 mm, volume 30 ml; &lt;br /&gt;
+&lt;b&gt;Color:&lt;/b&gt; optional; &lt;b&gt; Printing: &lt;/b&gt; Possibility to print on the lid or rim of the pot;
+&lt;b&gt;Seal:&lt;/b&gt; foam PP; &lt;br /&gt;
+&lt;b&gt;100ml cosmetic pots (bottom)&lt;/b&gt;
+&lt;b&gt;Material:&lt;/b&gt; PS or SAN;
+&lt;b&gt;Dimension:&lt;/b&gt; height 58 mm, diameter 64 mm, volume 100 ml;
+&lt;b&gt;Color:&lt;/b&gt; optional;
+&lt;b&gt;Printing:&lt;/b&gt; Possibility to print on the lid or rim of the pot;
+&lt;b&gt;Gasket:&lt;/b&gt; foam PP</value>
+  </data>
+  <data name="item04_KzCup150_Text" xml:space="preserve">
+    <value>&lt;b&gt;Use:&lt;/b&gt; for packing creams and ointments; &lt;br /&gt;
+Material: PS pot, PP insert; &lt;br /&gt;
+&lt;b&gt;Color:&lt;/b&gt; optional; &lt;br /&gt;
+Dimensions: height 64 mm, diameter 78 mm, volume 150 ml; &lt;br /&gt;
+&lt;b&gt;Printing: &lt;/b&gt; Possibility to print on the lid or rim of the pot; &lt;br /&gt;
+&lt;b&gt;Gasket:&lt;/b&gt; foam PP</value>
+  </data>
+  <data name="Item05_PlCup05-10_Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Item06_PlCup10-30_Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Item07_PlCup30-75_Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Item08_PlCup100_Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Item09_PlCup100-250_Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Item10_PlCup200-250-300_Text" xml:space="preserve">
+    <value>&lt;b&gt;1. Plastic pot 200ml, with thread:&lt;/b&gt; &lt;br/&gt; &lt;b&gt;Material:&lt;/b&gt; PP; &lt;b&gt;Dimension:&lt;/b&gt; height 40mm, diameter 95mm, volume 200ml; &lt;b&gt;Color:&lt;/b&gt; optional; &lt;br/&gt;
+&lt;b&gt;2. Plastic pot 250ml, with thread:&lt;/b&gt; &lt;br/&gt; &lt;b&gt;Material:&lt;/b&gt; PP; &lt;b&gt;Dimension:&lt;/b&gt; height 47mm, diameter 95mm, volume 250ml; &lt;b&gt;Color:&lt;/b&gt; optional; &lt;br/&gt;
+&lt;b&gt;3. Plastic pot 300ml, with thread:&lt;/b&gt; &lt;br/&gt; &lt;b&gt;Material:&lt;/b&gt; PP; &lt;b&gt;Dimension:&lt;/b&gt; height 54mm, diameter 95mm, volume 300ml; &lt;b&gt;Color:&lt;/b&gt; optional;</value>
+  </data>
+  <data name="w" xml:space="preserve">
+    <value />
   </data>
 </root>

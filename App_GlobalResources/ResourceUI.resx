@@ -186,7 +186,7 @@
   <data name="Slider_KL50ml_Title" xml:space="preserve">
     <value>Kozmetični lončki 50 ml</value>
   </data>
-  <data name="KzCup50_Text" xml:space="preserve">
+  <data name="Item01_KzCup50_Text" xml:space="preserve">
     <value>&lt;b&gt;Uporaba:&lt;/b&gt; za pakiranje krem in mazil;&lt;br/&gt;
 &lt;b&gt;Material:&lt;/b&gt; PS ali SAN;&lt;br/&gt;
 &lt;b&gt;Dimenzije:&lt;/b&gt; višina 52mm, premer 60mm, prostornina 50ml;&lt;br /&gt;
@@ -199,29 +199,93 @@
   <data name="MetaKeywords_content" xml:space="preserve">
     <value>proizvodnja kozmetične in lekarniške embalaže, lončki, plastični lončki, plastična embalaža, kozmetični lončki, kozmetična embalaža, brizganje plastike, plastične mase, pokrovčki, lončki po meri</value>
   </data>
-  <data name="KzCup150_Text" xml:space="preserve">
+  <data name="Item04_KzCup100-150_Text" xml:space="preserve">
     <value>&lt;b&gt;Uporaba:&lt;/b&gt; za pakiranje krem in mazil; &lt;br /&gt;
 &lt;b&gt;Material:&lt;/b&gt; lonček PS, vložek PP; &lt;br /&gt;
 &lt;b&gt;Barva:&lt;/b&gt; po želji; &lt;br /&gt;
-&lt;b&gt;Dimenzije:&lt;/b&gt; višina 64 mm, premer 78 mm, prostornina 150 ml; &lt;br /&gt;
+&lt;b&gt;Dimenzije:&lt;/b&gt; višina 64mm, premer 78mm, prostornina 150ml; &lt;br /&gt;
 &lt;b&gt;Tisk:&lt;/b&gt; možnost tiska na pokrov ali obod lončka; &lt;br /&gt;
 &lt;b&gt;Tesnilo:&lt;/b&gt; penjeni PP</value>
   </data>
-  <data name="KzCup30-100_Text" xml:space="preserve">
+  <data name="Item03_KzCup30_Text" xml:space="preserve">
     <value>&lt;b&gt;Kozmetični lončki prostornine 30ml (zgornji)&lt;/b&gt; &lt;br /&gt;
 &lt;b&gt;Material:&lt;/b&gt; PS ali SAN; &lt;b&gt;Dimenzija:&lt;/b&gt; višina 50 mm, premer 42 mm, prostornina 30 ml; &lt;br /&gt;
 &lt;b&gt;Barva:&lt;/b&gt; po želji; &lt;b&gt;Tisk:&lt;/b&gt; možnost tiska na pokrov ali obod lončka;
 &lt;b&gt;Tesnilo:&lt;/b&gt; penjeni PP;&lt;br /&gt;
 &lt;b&gt;Kozmetični lončki prostornine 100ml (spodnji)&lt;/b&gt; 
 &lt;b&gt;Material:&lt;/b&gt; PS ali SAN; 
-&lt;b&gt;Dimenzija:&lt;/b&gt; višina 58 mm, premer 64 mm, prostornina 100 ml; 
+&lt;b&gt;Dimenzija:&lt;/b&gt; višina 58mm, premer 64mm, prostornina 100ml; 
 &lt;b&gt;Barva:&lt;/b&gt; po želji; 
 &lt;b&gt;Tisk:&lt;/b&gt; možnost tiska na pokrov ali obod lončka; 
 &lt;b&gt;Tesnilo:&lt;/b&gt; penjeni PP</value>
   </data>
-  <data name="KzCup50v2_Text" xml:space="preserve">
+  <data name="Item02_KzCup50v2_Text" xml:space="preserve">
     <value>&lt;b&gt;Material:&lt;/b&gt; lonček PS, vložek PP; Dimenzije: višina 58mm, premer 65mm, prostornina 50ml;&lt;br /&gt;
 &lt;b&gt;Barva:&lt;/b&gt; po želji; tisk: možnost tiska na pokrov ali obod lončka;&lt;br /&gt;
 &lt;b&gt;Tesnilo:&lt;/b&gt; penjeni PP</value>
+  </data>
+  <data name="Item06_PlCup10-30_Text" xml:space="preserve">
+    <value>&lt;b&gt;Uporaba:&lt;/b&gt; za pakiranje krem in mazil:&lt;br/&gt;
+&lt;b&gt;Material:&lt;/b&gt; PS;&lt;br/&gt;
+&lt;b&gt;Dimenzije:&lt;/b&gt; višina 32mm, premer 43mm, prostornina 30ml (brez vložka), možnost vložka 10 ali 20 ml;&lt;br/&gt; 
+&lt;b&gt;Barva:&lt;/b&gt; po želji; &lt;br/&gt;
+&lt;b&gt;Tisk:&lt;/b&gt; možnost tiska na pokrov ali obod lončka; žtesnilo: ALU folija</value>
+  </data>
+  <data name="Item09_PlCup100-250_Text" xml:space="preserve">
+    <value>Plastični lonček 250 ml, brez navoja(beli); Uporaba za pakiranje krem in mazil Material: PP; dimenzija: višina 47 mm, premer 106 mm, prostornina 250 ml; barva: po želji; tisk: možnost tiska na pokrov; tesnilo: ALU folija;
+
+Plastični lonček 100 ml, z navojem (modri) Uporaba za pakiranje krem in mazil Material: PP; dimenzija: višina 25 mm, premer 91 mm, prostornina 100 ml; barva: po želji; tisk: možnost tiska na pokrov in dno; tesnilo: ALU folija</value>
+  </data>
+  <data name="Item08_PlCup100_Text" xml:space="preserve">
+    <value>&lt;b&gt;Uporaba:&lt;/b&gt; za pakiranje krem in mazil, predvsem za hladilno mazilo&lt;br/&gt;
+&lt;b&gt;Material:&lt;/b&gt; PS;&lt;br/&gt; 
+&lt;b&gt;Dimenzije:&lt;/b&gt; višina 56mm, premer 65mm, prostornina 100ml; &lt;br/&gt;
+&lt;b&gt;Barva:&lt;/b&gt; po želji; &lt;br/&gt;
+&lt;b&gt;Tisk:&lt;/b&gt; možnost tiska na pokrov ali obod lončka; &lt;b&gt;Tesnilo:&lt;/b&gt; ALU folija</value>
+  </data>
+  <data name="Item10_PlCup200-250-300_Text" xml:space="preserve">
+    <value> 
+&lt;b&gt;1. Plastični lonček 200ml, z navojem:&lt;/b&gt;&lt;br/&gt; &lt;b&gt;Material:&lt;/b&gt; PP; &lt;b&gt;Dimenzija:&lt;/b&gt; višina 40mm, premer 95mm, prostornina 200ml; &lt;b&gt;Barva:&lt;/b&gt; po želji; &lt;br/&gt;
+&lt;b&gt;2. Plastični lonček 250ml, z navojem:&lt;/b&gt;&lt;br/&gt; &lt;b&gt;Material:&lt;/b&gt; PP; &lt;b&gt;Dimenzija:&lt;/b&gt; višina 47mm, premer 95mm, prostornina 250ml; &lt;b&gt;Barva:&lt;/b&gt; po želji; &lt;br/&gt;
+&lt;b&gt;3. Plastični lonček 300ml, z navojem:&lt;/b&gt;&lt;br/&gt; &lt;b&gt;Material:&lt;/b&gt; PP; &lt;b&gt;Dimenzija:&lt;/b&gt; višina 54mm, premer 95mm, prostornina 300ml; &lt;b&gt;Barva:&lt;/b&gt; po želji;</value>
+  </data>
+  <data name="Item07_PlCup30-75_Text" xml:space="preserve">
+    <value>&lt;b&gt;Uporaba:&lt;/b&gt; za pakiranje krem in mazil: &lt;br/&gt;
+&lt;b&gt;Material:&lt;/b&gt;PS; &lt;br/&gt;
+&lt;b&gt;Dimenzije:&lt;/b&gt; višina 45mm, premer 58mm, prostornina 75ml (brez vložka), možnost vložka 30 ali 40 ml; &lt;br/&gt;
+&lt;b&gt;Barva:&lt;/b&gt; po želji; &lt;b&gt;Tisk:&lt;/b&gt; možnost tiska na pokrov ali obod lončka; tesnilo: ALU folija</value>
+  </data>
+  <data name="Item05_PlCup05-10_Text" xml:space="preserve">
+    <value>&lt;b&gt;Plastični lonček prostornine 10ml (levi)&lt;/b&gt; &lt;br/&gt;
+&lt;b&gt;Material:&lt;/b&gt; PS; &lt;b&gt;Dimenzija:&lt;/b&gt; višina 19mm, premer 36mm, prostornina 10ml; &lt;b&gt;barva:&lt;/b&gt; po želji; &lt;b&gt;Tisk:&lt;/b&gt; možnost tiska na pokrov ali obod lončka; &lt;br/&gt;
+
+&lt;b&gt;Plastična lončka prostornine 5ml (desna dva)&lt;/b&gt; &lt;br/&gt;
+&lt;b&gt;Material:&lt;/b&gt; PS; &lt;b&gt;Dimenzija:&lt;/b&gt; višina 17mm, premer 32mm, prostornina 5ml; &lt;b&gt;Barva:&lt;/b&gt; po želji; &lt;b&gt;Tisk:&lt;/b&gt; možnost tiska na pokrov ali obod lončka.</value>
+  </data>
+  <data name="Item11_Cups_Text" xml:space="preserve">
+    <value>&lt;b&gt;Pokrov za lonček 450 ml (na levi): &lt;/b&gt; Material: PP in Tesnilo: penjeni PP &lt;br/&gt;
+&lt;b&gt;Pokrov razpršilca (trije na desni)&lt;/b&gt; Material: PS, Dimenzija: višina 40 mm ter Premer 30 mm in Barva: po želji;</value>
+  </data>
+  <data name="Item13_CupsRazv2_Text" xml:space="preserve">
+    <value>&lt;b&gt;Material:&lt;/b&gt; PP; &lt;br/&gt;
+&lt;b&gt;Dimenzije:&lt;/b&gt; višina 25mm, premer 32mm; &lt;br/&gt;
+&lt;b&gt;Barva:&lt;/b&gt; po želji;</value>
+  </data>
+  <data name="Item14_Plastics45_Text" xml:space="preserve">
+    <value>&lt;b&gt;Material:&lt;/b&gt; PELD; &lt;br/&gt;
+&lt;b&gt;Dimenzije:&lt;/b&gt; širina 20mm, višina 86mm; &lt;br/&gt;
+&lt;b&gt;Barva:&lt;/b&gt; po želji;</value>
+  </data>
+  <data name="Item15_Plastics90-150_Text" xml:space="preserve">
+    <value>&lt;b&gt;Plastenka 90ml (bela):&lt;/b&gt;&lt;br/&gt; 
+&lt;b&gt;Material:&lt;/b&gt; PELD; &lt;b&gt;Dimenzije:&lt;/b&gt; premer 30mm, višina 165mm, prostornina 90ml; &lt;b&gt;Barva:&lt;/b&gt;po želji&lt;br/&gt;
+
+&lt;b&gt;Plastenka 150 ml (modra):&lt;/b&gt;&lt;br/&gt; 
+&lt;b&gt;Material:&lt;/b&gt; PELD; &lt;b&gt;Dimenzije:&lt;/b&gt; premer 43mm, višina 160mm, prostornina 150ml; &lt;b&gt;Barva:&lt;/b&gt; po želji;</value>
+  </data>
+  <data name="Items12_CupsRaz_Text" xml:space="preserve">
+    <value>&lt;b&gt;Material:&lt;/b&gt; PP; &lt;br/&gt;
+&lt;b&gt;Dimenzije:&lt;/b&gt; višina 25mm, premer 32mm; &lt;br/&gt;
+&lt;b&gt;Barva:&lt;/b&gt; po želji; &lt;br/&gt;</value>
   </data>
 </root>

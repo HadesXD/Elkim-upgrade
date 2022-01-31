@@ -2,11 +2,11 @@
     Inherits="ElkimSite.usercontrols.ucIzbiraJezika" %>
 
         <div class="linkButton">
-
-            <%--<asp:LinkButton ID="lbEnglish" OnClick="ibEnglish_Click" runat="server" CausesValidation="false" /><span>English</span></asp:LinkButton>--%>
     
             <asp:LinkButton ID="lbSlovenian" Text="Slovenščina" OnClick="ibSlovenian_Click" runat="server"
                 CausesValidation="false" />
+
+            <asp:LinkButton ID="lbEnglish" Text="English" OnClick="ibEnglish_Click" runat="server" CausesValidation="false" />
 
     </div>
       

@@ -3,50 +3,39 @@
     </asp:ScriptManager>
 <asp:UpdatePanel ID="UpdatePanel1" runat="server">
 <ContentTemplate>
+    
     <br />
-
-    <fieldset>
-          <asp:TextBox ID="txtOseba" runat="server" MaxLength="50" Width="200px" placeholder="<%$Resources:ResourceUI, SendMessage_Person %>"></asp:TextBox>
+        <div class="mail-container">
+            
+            <fieldset>
+            <asp:Literal ID="Literal2" runat="server" Text="<%$Resources:ResourceUI, SendMessage_Organization %>" />
+            <asp:TextBox ID="txtNaziv" runat="server" MaxLength="50" Width="200px"></asp:TextBox>
             <div class="after"></div>
-        </fieldset>
+            </fieldset>
 
-        <fieldset>
-
-        <asp:TextBox ID="txtNaziv" runat="server" MaxLength="50" Width="200px" placeholder="<%$Resources:ResourceUI, SendMessage_Organization %>"></asp:TextBox>
+            <fieldset>
+            <asp:Literal ID="Literal1" runat="server" Text="<%$Resources:ResourceUI, SendMessage_Person %>" />
+            <asp:TextBox ID="txtOseba" runat="server" MaxLength="50" Width="200px"></asp:TextBox>
             <div class="after"></div>
-                    </fieldset>
-        <fieldset>
-
-        <asp:TextBox ID="txtKontakt" runat="server" MaxLength="50" Width="200px" placeholder="<%$Resources:ResourceUI, SendMessage_Contact %>"></asp:TextBox>
-        <div class="after"></div>
-                    </fieldset>
-        <fieldset>
-
-        <asp:TextBox ID="txtSporocilo" runat="server" Rows="3" TextMode="MultiLine" Width="200px" placeholder="<%$Resources:ResourceUI, SendMessage_Message %>"></asp:TextBox>
-
-                    </fieldset>
-
-
-        <asp:Button ID="cmdPoslji" runat="server" onclick="cmdPoslji_Click" OnClientClick="this.disabled = true;" UseSubmitBehavior=false
+            </fieldset>
+  
+            <fieldset>
+            <asp:Literal ID="Literal3" runat="server" Text="<%$Resources:ResourceUI, SendMessage_Contact %>" />
+            <asp:TextBox ID="txtKontakt" runat="server" MaxLength="50" Width="200px"></asp:TextBox>
+            <div class="after"></div>
+            </fieldset>
+        
+            <fieldset>
+            <asp:Literal ID="Literal4" runat="server" Text="<%$Resources:ResourceUI, SendMessage_Message %>" />
+            <asp:TextBox ID="txtSporocilo" runat="server" Rows="3" TextMode="MultiLine" Width="250px"></asp:TextBox>
+            </fieldset>
+    
+    
+            <div class="custom-button">
+                <asp:Button ID="cmdPoslji" runat="server" onclick="cmdPoslji_Click" OnClientClick="this.disabled = true;" UseSubmitBehavior=false
                     Text="<%$Resources:ResourceUI, SendMessage_Send %>" />
-      
-        <button>Submit</button>
-
-      <!--
-  <form action="#" autocomplete="off">
-    <fieldset>
-      <input id="first" type="text" name="first" required placeholder="name">
-      <div class="after"></div>
-    </fieldset>
-    <fieldset>
-      <input id="last" type="text" name="last" required>
-      <div class="after"></div>
-    </fieldset>
-    <fieldset>
-      <button>Submit</button>
-    </fieldset>
-  </form>-->
-
-
+                <asp:Label ID="lblSporociloOddano" runat="server" Text="<%$Resources:ResourceUI, SendMessage_MsgSent %>" Visible="False"></asp:Label>
+            </div>
+        </div>
 </ContentTemplate>
 </asp:UpdatePanel>
