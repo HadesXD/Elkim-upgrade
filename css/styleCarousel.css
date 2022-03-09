@@ -63,9 +63,9 @@ body #scene {
     -ms-flex-pack: left;
     justify-content: left;
     min-height: 650px;
-    min-width: 950px;
+    min-width: 100px;
     height: 100%;
-    width: 950px;
+    width: 100%;
     position: relative;
     top: 0;
     bottom: 0;
@@ -88,7 +88,7 @@ body  #scene #left-zone {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 350px;
+  width: 400px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -150,7 +150,7 @@ body  #scene #left-zone .list li.item input[type="radio"] ~ label.label_selectCo
 
 body  #scene #left-zone .list li.item input[type="radio"] ~ .content {
   position: absolute;
-  left: 350px;
+  left: 450px;
   top: -650px;
   width: 650px;
   height: 680px;
@@ -192,7 +192,7 @@ body  #scene #left-zone .list li.item input[type="radio"] ~ .content h1:first-le
 }
 
 body  #scene #left-zone .list li.item input[type="radio"] ~ .content p {
-  max-width: 60%;
+  max-width: 80%;
   text-align: left;
 }
 
@@ -204,9 +204,9 @@ body  #scene #left-zone .list li.item input[type="radio"] ~ .content br {
 }
 
 body  #scene #left-zone .list li.item input[type="radio"] ~ .content img {
-    border-radius: 120px 20px 120px 20px;
-    height: 350px;
-    width: 380px;
+    border-radius: 60px 20px 60px 20px;
+    height: 380px;
+    width: 450px;
 }
 
 body  #scene #left-zone .list li.item input[type="radio"]:checked ~ label {

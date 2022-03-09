@@ -1,14 +1,12 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ucIzbiraJezika.ascx.cs"
     Inherits="ElkimSite.usercontrols.ucIzbiraJezika" %>
 
-        <div class="linkButton">
-    
-            <asp:LinkButton ID="lbSlovenian" Text="Slovenščina" OnClick="ibSlovenian_Click" runat="server"
-                CausesValidation="false" />
 
-            <asp:LinkButton ID="lbEnglish" Text="English" OnClick="ibEnglish_Click" runat="server" CausesValidation="false" />
 
-    </div>
+        <button style="background-color: red"><asp:LinkButton ID="lbSlovenian" Text="Slovenščina" OnClick="ibSlovenian_Click" runat="server" CausesValidation="false" /></button>
+
+        <asp:LinkButton ID="lbEnglish" Text="English" OnClick="ibEnglish_Click" runat="server" CausesValidation="false" />
+
       
        <%-- <td width="100px">
             <asp:LinkButton ID="lbGerman" Text="Deutsch" runat="server" CausesValidation="false"
@@ -30,8 +28,3 @@
                 OnClick="lbRussian_Click" />
             &nbsp;
         </td>--%>
-        <td width="60%" align="right">
-            &nbsp;
-        </td>
-    </tr>
-</table>

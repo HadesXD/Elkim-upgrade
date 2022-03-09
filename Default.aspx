@@ -1,7 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ElkimSite.Master" AutoEventWireup="true"
     CodeBehind="Default.aspx.cs" Inherits="ElkimSite._Default" %>
 
-<%@ Register Src="usercontrols/sporocilo.ascx" TagName="sporocilo" TagPrefix="uc1" %>
+<%@ Register Src="usercontrols/sporocilo.ascx" TagName="sporocilo" TagPrefix="uc2" %>
+<%@ Register Src="usercontrols/mailSend.ascx" TagName="mailSend" TagPrefix="uc1" %>
+
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <title>
         <asp:Literal ID="Literal10" runat="server" Text="<%$Resources:ResourceUI, Page_Title %>" />
@@ -147,12 +150,12 @@
                 </div>
                 <div class="4u">
                     <!-- Box #3 -->
+
                     <section>
                         <header>
-                            <h2>
-                                <asp:Literal ID="Literal8" runat="server" Text="<%$Resources:ResourceUI, SendMessage_Title %>" /></h2>
-                                <uc1:sporocilo ID="sporocilo1" runat="server" />
+                             <h2><asp:Literal ID="Literal8" runat="server" Text="<%$Resources:ResourceUI, SendMessage_Title %>" /></h2>
                         </header>
+                                <uc1:mailSend ID="mail1" runat="server" />
                     </section>
                 </div>
             </div>
