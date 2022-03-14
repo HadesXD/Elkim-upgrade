@@ -241,7 +241,31 @@ Dimensions: height 64 mm, diameter 78 mm, volume 150 ml; &lt;br /&gt;
 &lt;b&gt;2. Plastic pot 250ml, with thread:&lt;/b&gt; &lt;br/&gt; &lt;b&gt;Material:&lt;/b&gt; PP; &lt;b&gt;Dimension:&lt;/b&gt; height 47mm, diameter 95mm, volume 250ml; &lt;b&gt;Color:&lt;/b&gt; optional; &lt;br/&gt;
 &lt;b&gt;3. Plastic pot 300ml, with thread:&lt;/b&gt; &lt;br/&gt; &lt;b&gt;Material:&lt;/b&gt; PP; &lt;b&gt;Dimension:&lt;/b&gt; height 54mm, diameter 95mm, volume 300ml; &lt;b&gt;Color:&lt;/b&gt; optional;</value>
   </data>
-  <data name="w" xml:space="preserve">
-    <value />
+  <data name="Slider_Title01" xml:space="preserve">
+    <value>Cosmetic pots 50ml</value>
+  </data>
+  <data name="Slider_Title02" xml:space="preserve">
+    <value>Cosmetic pots 50ml (version 2)</value>
+  </data>
+  <data name="Slider_Title03" xml:space="preserve">
+    <value>Cosmetic pots 30ml</value>
+  </data>
+  <data name="Slider_Title04" xml:space="preserve">
+    <value>Cosmetic pots 100-150ml</value>
+  </data>
+  <data name="Slider_Title05" xml:space="preserve">
+    <value>Plastic pots 5 &amp; 10ml</value>
+  </data>
+  <data name="Slider_Title06" xml:space="preserve">
+    <value>Plastic pots from 10 to 30ml</value>
+  </data>
+  <data name="Slider_Title07" xml:space="preserve">
+    <value>Plastic pots from 30 to 75ml</value>
+  </data>
+  <data name="Slider_Title08" xml:space="preserve">
+    <value>Plastic pots 100ml</value>
+  </data>
+  <data name="Slider_Title09" xml:space="preserve">
+    <value>Plastic pots 200, 250, 300ml</value>
   </data>
 </root>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 @-webkit-keyframes slidein {
   0% {
     top: -630px;
@@ -119,12 +121,17 @@ body  #scene #left-zone .list li.item input[type="radio"] {
   display: none;
 }
 
-body  #scene #left-zone .list li.item input[type="radio"] ~ label {
-  display: block;
-  opacity: 0.5;
-  font-size: 20px;
-  text-align: center;
-  line-height: 50px;
+/* The ITEMS */
+
+body #scene #left-zone .list li.item input[type="radio"] ~ label {
+    display: block;
+    opacity: 0.5;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 
 body  #scene #left-zone .list li.item input[type="radio"] ~ label:first-letter {

@@ -183,8 +183,8 @@
   <data name="SendMessage_Title" xml:space="preserve">
     <value>Pošlji povpraševanje</value>
   </data>
-  <data name="Slider_KL50ml_Title" xml:space="preserve">
-    <value>Kozmetični lončki 50 ml</value>
+  <data name="Slider_Title01" xml:space="preserve">
+    <value>Kozmetični lončki 50ml</value>
   </data>
   <data name="Item01_KzCup50_Text" xml:space="preserve">
     <value>&lt;b&gt;Uporaba:&lt;/b&gt; za pakiranje krem in mazil;&lt;br/&gt;
@@ -287,5 +287,29 @@ Plastični lonček 100 ml, z navojem (modri) Uporaba za pakiranje krem in mazil 
     <value>&lt;b&gt;Material:&lt;/b&gt; PP; &lt;br/&gt;
 &lt;b&gt;Dimenzije:&lt;/b&gt; višina 25mm, premer 32mm; &lt;br/&gt;
 &lt;b&gt;Barva:&lt;/b&gt; po želji; &lt;br/&gt;</value>
+  </data>
+  <data name="Slider_Title02" xml:space="preserve">
+    <value>Kozmetični lončki 50ml (verzija 2)</value>
+  </data>
+  <data name="Slider_Title03" xml:space="preserve">
+    <value>Kozmetični lončki 30ml</value>
+  </data>
+  <data name="Slider_Title04" xml:space="preserve">
+    <value>Kozmetični lončki 100-150ml</value>
+  </data>
+  <data name="Slider_Title05" xml:space="preserve">
+    <value>Plastični lončki 5 in 10ml</value>
+  </data>
+  <data name="Slider_Title06" xml:space="preserve">
+    <value>Plastični lončki 10 do 30ml</value>
+  </data>
+  <data name="Slider_Title07" xml:space="preserve">
+    <value>Plastični lončki 30 do 75ml</value>
+  </data>
+  <data name="Slider_Title08" xml:space="preserve">
+    <value>Plastični lončki 100ml</value>
+  </data>
+  <data name="Slider_Title09" xml:space="preserve">
+    <value>Plastični lončki 200, 250, 300ml</value>
   </data>
 </root>

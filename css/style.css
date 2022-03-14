@@ -139,11 +139,11 @@
 		{
 		}
 
-			.check-list li
-			{
+			.check-list li {
 				padding: 0.7em 0 0.7em 45px;
 				/*font-size: 1.2em;*/
-				background: url('images/icon-checkmark.png') 0px 1.05em no-repeat;
+				background: url('images/blue_arrow.jpg') 0px 1.05em no-repeat;
+				background-size: 26px;
 			}
 			
 			.check-list li:first-child
@@ -276,13 +276,14 @@
 			}
 		
 		/* Header */
-		
-			#header
-			{
-				min-height: 155px;
-				position: relative;
-				padding-left: 155px;
-			}
+
+		#header {
+			background: url("images/logo_elkim.png") no-repeat 20px;
+				background-size: 150px;
+			min-height: 155px;
+			position: relative;
+			padding-left: 200px;
+		}
 
 				#header h1
 				{
@@ -382,12 +383,11 @@
 			#content
 			{
 			}
-			
-				#content section
-				{
+
+				#content section {
 					background: #fff;
-					padding: 40px 10px 45px 30px;
-					box-shadow: 2px 2px 2px 1px rgba(128,128,128,0.1);
+					padding: 30px 15px 45px 15px;
+					box-shadow: 10px 10px 10px 1px rgba(128,128,128,0.1);
 					margin: 0 0 10% 0;
 				}
 

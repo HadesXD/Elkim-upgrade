@@ -22,62 +22,76 @@
                             <div id="left-zone">
                                 <ul class="list">
                                     <li class="item">
-                                        <input type="radio" id="radio_kzCup50" name="basic_carousel" checked="checked">
-                                        <label class="label_selectColor" for="radio_kzCup50">Kozmetični lončnki 50ml</label> <!--For is important-->
+                                        <input type="radio" id="radio_kzCup50" name="basic_carousel" checked="checked"/>
+                                        <label class="label_selectColor" for="radio_kzCup50">
+                                            <asp:Literal runat="server" Text="<%$Resources:ResourceUI, Slider_Title01 %>" />
+                                        </label> <!--For is important-->
                                         <div class="content content_kzCup50"><span class="picto"></span>
                                             <br />
-                                            <img src="images\kzCup50.jpg" alt="Kozmetični lončnki 50ml"><br />
+                                            <img src="images\kzCup50.jpg" alt="Kozmetični lončnki 50ml"/><br />
                                             <p><asp:Literal runat="server" Text="<%$Resources:ResourceUI, Item01_KzCup50_Text %>" /></p>
                                         </div>
                                     </li>
                                     <li class="item">
-                                        <input type="radio" id="radio_kzCup50_v2" name="basic_carousel">
-                                        <label class="label_selectColor" for="radio_kzCup50_v2">Kozmetični lončnki 50ml (verzija 2)</label> <!--For is important-->
+                                        <input type="radio" id="radio_kzCup50_v2" name="basic_carousel"/>
+                                        <label class="label_selectColor" for="radio_kzCup50_v2">
+                                            <asp:Literal runat="server" Text="<%$Resources:ResourceUI, Slider_Title02 %>" />
+                                        </label> <!--For is important-->
                                         <div class="content content_kzCup50_v2"><span class="picto"></span>
                                             <br />
-                                            <img src="images\kzCup50v2.jpg" alt="Kozmetični lončnki 50ml v2"><br />
+                                            <img src="images\kzCup50v2.jpg" alt="Kozmetični lončnki 50ml v2"/><br />
                                             <p><asp:Literal runat="server" Text="<%$Resources:ResourceUI, Item02_KzCup50v2_Text %>" /></p>
                                         </div>
                                     </li>
                                     <li class="item">
-                                        <input type="radio" id="radio_kozCup30" name="basic_carousel">
-                                        <label class="label_selectColor" for="radio_kozCup30">Kozmetični lončki 30ml</label>
+                                        <input type="radio" id="radio_kozCup30" name="basic_carousel"/>
+                                        <label class="label_selectColor" for="radio_kozCup30">
+                                            <asp:Literal runat="server" Text="<%$Resources:ResourceUI, Slider_Title03 %>" />                                        
+                                        </label>
                                         <div class="content content_kozCup30"><span class="picto"></span>
                                             <br />
-                                            <img src="images\kzCup30.jpg" alt="Kozmetični lončki 30ml"><br />
+                                            <img src="images\kzCup30.jpg" alt="Kozmetični lončki 30ml"/><br />
                                             <p><asp:Literal runat="server" Text="<%$Resources:ResourceUI, Item03_KzCup30_Text %>" /></p>
                                         </div>
                                     </li>
                                     <li class="item">
-                                        <input type="radio" id="radio_kozCup100-150" name="basic_carousel">
-                                        <label class="label_selectColor" for="radio_kozCup100-150">Kozmetični lončki 100-150ml</label>
+                                        <input type="radio" id="radio_kozCup100-150" name="basic_carousel"/>
+                                        <label class="label_selectColor" for="radio_kozCup100-150">
+                                            <asp:Literal runat="server" Text="<%$Resources:ResourceUI, Slider_Title04 %>" />
+                                        </label>
                                         <div class="content content_kozCup100-150"><span class="picto"></span>
                                             <br />
-                                            <img src="images\kzCup100-150.jpg" alt="Kozmetični lončki 100-150ml"><br />
+                                            <img src="images\kzCup100-150.jpg" alt="Kozmetični lončki 100-150ml"/><br />
                                             <p><asp:Literal runat="server" Text="<%$Resources:ResourceUI, Item04_KzCup100-150_Text %>" /></p>
                                         </div>
                                     </li>
                                     <li class="item">
-                                        <input type="radio" id="radio_plCup5-10" name="basic_carousel">
-                                        <label class="label_selectColor" for="radio_plCup5-10">Plastični lončki 5 in 10ml</label>
+                                        <input type="radio" id="radio_plCup5-10" name="basic_carousel"/>
+                                        <label class="label_selectColor" for="radio_plCup5-10">
+                                            <asp:Literal runat="server" Text="<%$Resources:ResourceUI, Slider_Title05 %>" />
+                                        </label>
                                         <div class="content content_plCup5-10"><span class="picto"></span>
                                             <br />
-                                            <img src="images\plCup5in10.jpg" alt="Plastični lončki 5 in 10ml"><br />
+                                            <img src="images\plCup5in10.jpg" alt="Plastični lončki 5 in 10ml"/><br />
                                             <p><asp:Literal runat="server" Text="<%$Resources:ResourceUI, Item05_PlCup05-10_Text %>" /></p>
                                         </div>
                                     </li>
                                     <li class="item">
-                                        <input type="radio" id="radio_plCup10-30" name="basic_carousel">
-                                        <label class="label_selectColor" for="radio_plCup10-30">Plastični lončki od 10 do 30ml</label>
+                                        <input type="radio" id="radio_plCup10-30" name="basic_carousel"/>
+                                        <label class="label_selectColor" for="radio_plCup10-30">
+                                            <asp:Literal runat="server" Text="<%$Resources:ResourceUI, Slider_Title06 %>" />
+                                        </label>
                                         <div class="content content_plCup10-30"><span class="picto"></span>
                                             <br />
-                                            <img src="images\plCup10in30.jpg" alt="Plastični lončki od 10 do 30ml"><br />
+                                            <img src="images\plCup10in30.jpg" alt="Plastični lončki od 10 do 30ml"/><br />
                                             <p><asp:Literal runat="server" Text="<%$Resources:ResourceUI, Item06_PlCup10-30_Text %>" /></p>
                                         </div>
                                     </li>
                                     <li class="item">
-                                        <input type="radio" id="radio_plCup30-75" name="basic_carousel">
-                                        <label class="label_selectColor" for="radio_plCup30-75">Plastični lončki od 30 do 75ml</label>
+                                        <input type="radio" id="radio_plCup30-75" name="basic_carousel"/>
+                                        <label class="label_selectColor" for="radio_plCup30-75">
+                                            <asp:Literal runat="server" Text="<%$Resources:ResourceUI, Slider_Title07 %>" />
+                                        </label>
                                         <div class="content content_plCup30-75"><span class="picto"></span>
                                             <br />
                                             <img src="images\plCup30in75.jpg" alt="Plastični lončki od 30 do 75ml"><br />
@@ -86,7 +100,9 @@
                                     </li>
                                     <li class="item">
                                         <input type="radio" id="radio_plCup100" name="basic_carousel">
-                                        <label class="label_selectColor" for="radio_plCup100">Plastični lončki 100ml</label>
+                                        <label class="label_selectColor" for="radio_plCup100">
+                                            <asp:Literal runat="server" Text="<%$Resources:ResourceUI, Slider_Title08 %>" />
+                                        </label>
                                         <div class="content content_plCup100"><span class="picto"></span>
                                             <br />
                                             <img src="images\plCup100.jpg" alt="Plastični lončki 100ml"><br />
@@ -95,7 +111,9 @@
                                     </li>
                                     <li class="item">
                                         <input type="radio" id="radio_plCup200-250-300" name="basic_carousel">
-                                        <label class="label_selectColor" for="radio_plCup200-250-300">Plastični lončki 200, 250, 300ml</label>
+                                        <label class="label_selectColor" for="radio_plCup200-250-300">
+                                            <asp:Literal runat="server" Text="<%$Resources:ResourceUI, Slider_Title09 %>" />
+                                        </label>
                                         <div class="content content_plCup200-250-300"><span class="picto"></span>
                                             <br />
                                             <img src="images\plCup200in250in300.jpg" alt="Plastični lončki 200, 250, 300ml"><br />
@@ -135,7 +153,6 @@
                         </header>
                         <ul class="check-list">
                             <li>
-
                                 <asp:Literal ID="Literal3" runat="server" Text="<%$Resources:ResourceUI, Elkim_check1 %>" /></li>
                             <li>
                                 <asp:Literal ID="Literal4" runat="server" Text="<%$Resources:ResourceUI, Elkim_check2 %>" /></li>
@@ -155,7 +172,12 @@
                         <header>
                              <h2><asp:Literal ID="Literal8" runat="server" Text="<%$Resources:ResourceUI, SendMessage_Title %>" /></h2>
                         </header>
-                                <uc1:mailSend ID="mail1" runat="server" />
+                                                <p>
+                            Elkim d.o.o.<br />
+                            Dvor 20c, 3240 Šmarje pri Jelšah<br />
+                            GSM: +386 (0)31 573 383, ePošta: info@elkim.si
+                        </p>
+                                <!--<uc1:mailSend ID="mail1" runat="server" />-->
                     </section>
                 </div>
             </div>
