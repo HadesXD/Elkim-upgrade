@@ -210,10 +210,9 @@ body  #scene #left-zone .list li.item input[type="radio"] ~ .content br {
   content: " ";
 }
 
-body  #scene #left-zone .list li.item input[type="radio"] ~ .content img {
-    border-radius: 60px 20px 60px 20px;
-    height: 380px;
-    width: 450px;
+body #scene #left-zone .list li.item input[type="radio"] ~ .content img {
+    width: 600px;
+    height: 400px;
 }
 
 body  #scene #left-zone .list li.item input[type="radio"]:checked ~ label {

@@ -104,7 +104,8 @@ function getExportDialog() {
 		"<HEAD>" +
 		"<STYLE>" +
 		"SPAN.exportMessage {" +
-		"   FONT-SIZE: 12pt; FONT-FAMILY: Arial, Helvetica, sans-serif" +
+		"   FONT-SIZE: 12pt; 
+	: Arial, Helvetica, sans - serif" +
 		"}" +
 		"SPAN.exportSelect {" +
 		"   FONT-SIZE: 10pt; FONT-FAMILY: Arial, Helvetica, sans-serif" +

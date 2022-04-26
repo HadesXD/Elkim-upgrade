@@ -12,6 +12,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
+
     <!-- Content -->
     <div id="content-wrapper">
         <div id="content">
@@ -22,16 +23,53 @@
                             <div id="left-zone">
                                 <ul class="list">
                                     <li class="item">
-                                        <input type="radio" id="radio_kzCup50" name="basic_carousel" checked="checked"/>
-                                        <label class="label_selectColor" for="radio_kzCup50">
+                                        <input type="radio" id="radio_slide01_01" name="basic_carousel" checked="checked"/>
+                                        <label class="label_selectColor" for="radio_slide01_01">
                                             <asp:Literal runat="server" Text="<%$Resources:ResourceUI, Slider_Title01 %>" />
                                         </label> <!--For is important-->
-                                        <div class="content content_kzCup50"><span class="picto"></span>
+                                        <div class="content content_slide01_01"><span class="picto"></span>
                                             <br />
-                                            <img src="images\kzCup50.jpg" alt="Kozmetični lončnki 50ml"/><br />
-                                            <p><asp:Literal runat="server" Text="<%$Resources:ResourceUI, Item01_KzCup50_Text %>" /></p>
+
+                                            
+                                            <div class="slideshow-container">
+
+                                        <div class="mySlides fade">
+                                          <div class="numbertext">1 / 3</div>
+                                          <img src="images/slide01_01.jpg" style="width:100%">
+                                          <div class="text">Caption Text</div>
+                                        </div>
+
+                                        <div class="mySlides fade">
+                                          <div class="numbertext">2 / 3</div>
+                                          <img src="img_snow_wide.jpg" style="width:100%">
+                                          <div class="text">Caption Two</div>
+                                        </div>
+
+                                        <div class="mySlides fade">
+                                          <div class="numbertext">3 / 3</div>
+                                          <img src="img_mountains_wide.jpg" style="width:100%">
+                                          <div class="text">Caption Three</div>
+                                        </div>
+
+                                        <a class="prev" onclick="plusSlides(-1)">❮</a>
+                                        <a class="next" onclick="plusSlides(1)">❯</a>
+
+                                        </div>
+                                        <br>
+
+                                        <div style="text-align:center">
+                                          <span class="dot" onclick="currentSlide(1)"></span> 
+                                          <span class="dot" onclick="currentSlide(2)"></span> 
+                                          <span class="dot" onclick="currentSlide(3)"></span> 
+                                        </div>
+
+                                            
+                                            <p><asp:Literal runat="server" Text="<%$Resources:ResourceUI, Item01_KzCup50_Text %>" /></p>-
                                         </div>
                                     </li>
+
+
+
                                     <li class="item">
                                         <input type="radio" id="radio_kzCup50_v2" name="basic_carousel"/>
                                         <label class="label_selectColor" for="radio_kzCup50_v2">
@@ -123,8 +161,6 @@
                                 </ul>
                             </div>
                  </div>
-
-               
             </div>
 
 
@@ -137,8 +173,7 @@
                                 <asp:Literal runat="server" Text="<%$Resources:ResourceUI, Introduction_Title %>" /></h2>
                         </header>
                         <p>
-                            <i class="fas fa-check"></i>
-
+                            <!--<i class="fas fa-check"></i>-->
 
                             <asp:Literal ID="Literal1" runat="server" Text="<%$Resources:ResourceUI, Introduction_Text %>" />
                         </p>
@@ -172,15 +207,45 @@
                         <header>
                              <h2><asp:Literal ID="Literal8" runat="server" Text="<%$Resources:ResourceUI, SendMessage_Title %>" /></h2>
                         </header>
-                                                <p>
+                       <p> Če vas zanima interakcija z nami, nas kontaktirajte na <b>info@elkim.si</b></p>
                             Elkim d.o.o.<br />
                             Dvor 20c, 3240 Šmarje pri Jelšah<br />
                             GSM: +386 (0)31 573 383, ePošta: info@elkim.si
                         </p>
-                                <!--<uc1:mailSend ID="mail1" runat="server" />-->
                     </section>
                 </div>
             </div>
         </div>
     </div>
+
+
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+</script>
+
 </asp:Content>
